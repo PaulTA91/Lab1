@@ -11,7 +11,7 @@ http.createServer(function(req, res) {
             break;
         case '/about':
             res.writeHead(200, { 'Content-Type': 'html' });
-            res.end('<h1>About</h1>');
+            res.end('<h1>About!</h1>');
             break;
         case '/guestbook':
             res.writeHead(200, { 'Content-Type': 'html' });
